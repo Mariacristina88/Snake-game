@@ -1,6 +1,5 @@
 var canvasModule = (function () { 
 	
-
 	var bodySnake = function(x, y) {
         ctx.fillStyle = 'green';
         ctx.fillRect(x*snakeSize, y*snakeSize, snakeSize, snakeSize);
