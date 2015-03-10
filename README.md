@@ -19,4 +19,16 @@ This project is also builded using the module patterns for code structure.
 5. Create the main function which has to run everything we need to play.
 6. Use the _keyCode_ event to move the snake using the keyboard.
 
+```bash
+<pre lang="js">
+var bodySnake = function(x, y) {
+        //This is the single square
+        ctx.fillStyle = 'green';
+        ctx.fillRect(x*snakeSize, y*snakeSize, snakeSize, snakeSize);
+        //This is the border of the square
+        ctx.strokeStyle = 'darkgreen';
+        ctx.strokeRect(x*snakeSize, y*snakeSize, snakeSize, snakeSize);
+    }
+</pre>
+```
 ![Snake](https://raw.githubusercontent.com/Mariacristina88/Snake-game/master/img/snake.png)
