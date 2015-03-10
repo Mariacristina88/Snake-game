@@ -16,5 +16,4 @@ I used the design pattern for the code structure. The important thing to know be
 5. Create the main function which has to run everything we need to play.
 6. Use the _keyCode_ event to move the snake using the keyboard.
 
-**Image**
 ![Snake](https://raw.githubusercontent.com/Mariacristina88/Snake-game/master/img/snake.png)
