@@ -12,7 +12,7 @@ I used the design pattern for the code structure. The important thing to know be
 1. Create the canvas element in our html.
 2. Draw the body of the snake and the food using canvases.
 3. Create the structure of the snake and of the food.
-4. Create a _checkCollision_ function to detect if the snake has touched it self.
+4. Create a _checkCollision_ function to detect if the snake has touched itself.
 5. Create the main function which has to run everything we need to play.
 6. Use the _keyCode_ event to move the snake using the keyboard.
 
