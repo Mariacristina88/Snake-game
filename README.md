@@ -20,7 +20,6 @@ This project is also builded using the module patterns for code structure.
 6. Use the _keyCode_ event to move the snake using the keyboard.
 
 ```bash
-<pre lang="js">
 var bodySnake = function(x, y) {
         //This is the single square
         ctx.fillStyle = 'green';
@@ -29,6 +28,5 @@ var bodySnake = function(x, y) {
         ctx.strokeStyle = 'darkgreen';
         ctx.strokeRect(x*snakeSize, y*snakeSize, snakeSize, snakeSize);
     }
-</pre>
 ```
 ![Snake](https://raw.githubusercontent.com/Mariacristina88/Snake-game/master/img/snake.png)
