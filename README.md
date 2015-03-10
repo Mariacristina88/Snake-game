@@ -11,7 +11,7 @@
 The important thing to know before start is that our snake is formed by a chain of elements (squares) and that the movement is allowed by moving the last square of the snake body to the front of it. 
 This project is also builded using the module patterns for code structure.
 
-### Istructions:
+# Istructions:
 1. Create the canvas element in our html.
 2. Draw the body of the snake and the food using canvases.
 3. Create the structure of the snake and of the food.
@@ -19,13 +19,11 @@ This project is also builded using the module patterns for code structure.
 5. Create the main function which has to run everything we need to play.
 6. Use the _keyCode_ event to move the snake using the keyboard.
 
-----------------------------------------------------------------------
 
-### The Snake
+## The Snake
+------------------------------------------------------------------
 
----------------------------------
-
-## How draw the snake with canvas:
+### How draw the snake with canvas:
 
 ```js
 var bodySnake = function(x, y) {
@@ -38,7 +36,7 @@ var bodySnake = function(x, y) {
     }
 ```
 
-## The structure of the snake:
+### The structure of the snake:
 
 ```js
 var drawSnake = function() {
@@ -53,7 +51,7 @@ var drawSnake = function() {
           }  
         }
 ```
-## The movement of the snake:
+### The movement of the snake:
 
 ```js
 var snakeX = snake[0].x;
