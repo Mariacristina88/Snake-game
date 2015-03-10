@@ -12,8 +12,6 @@ var canvasModule = (function () {
         ctx.fillRect(x*snakeSize, y*snakeSize, snakeSize, snakeSize);
         ctx.fillStyle = 'red';
         ctx.fillRect(x*snakeSize+1, y*snakeSize+1, snakeSize-2, snakeSize-2);
-        ctx.strokeStyle = 'white';
-        ctx.strokeRect(x*snakeSize, y*snakeSize, snakeSize, snakeSize);
     }
 
 	var scoreText = function() {
