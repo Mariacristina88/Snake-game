@@ -22,7 +22,7 @@ var drawModule = (function () {
   }
 
   var drawSnake = function() {
-      var length = 5;
+      var length = 4;
       snake = [];
       for (var i = length-1; i>=0; i--) {
           snake.push({x:i, y:0});
@@ -72,8 +72,7 @@ var drawModule = (function () {
         snake.unshift(tail); //puts back the tail as the first cell
 
         for(var i = 0; i < snake.length; i++) {
-          var c = snake[i];
-          bodySnake(c.x, c.y);
+          bodySnake(snake[i].x, snake[i].y);
         } 
         
         pizza(food.x, food.y); 
@@ -102,7 +101,7 @@ var drawModule = (function () {
         return true;
       } 
       return false;
-      }
+  }
 
   var init = function(){
       direction = 'down';
