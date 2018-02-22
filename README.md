@@ -11,7 +11,7 @@
 The important thing to know before start is that our snake is formed by a chain of elements (squares) and that the movement is allowed by moving the last square of the snake body to the front of it. 
 This project is also builded using the module patterns for code structure.
 
-## Istructions:
+## Instructions:
 1. Create the canvas element in our html.
 2. Draw the body of the snake and the food using canvases.
 3. Create the structure of the snake and of the food.
