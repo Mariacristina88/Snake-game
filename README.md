@@ -12,12 +12,12 @@ The important thing to know before start is that our snake is formed by a chain 
 This project is also builded using the module patterns for code structure.
 
 ## Istructions:
-1. Create the canvas element in our html.
+1. Create the canvas Element in our html.
 2. Draw the body of the snake and the food using canvases.
 3. Create the structure of the snake and of the food.
 4. Create a _checkCollision_ function to detect if the snake has touched itself.
-5. Create the main function which has to run everything we need to play.
-6. Use the _keyCode_ event to move the snake using the keyboard.
+5. Create the main function which Has to run Everything we need to play.
+6. Use the _keyCode_ event to move the Snake Using The keyboard.
 
 
 ## The Snake
